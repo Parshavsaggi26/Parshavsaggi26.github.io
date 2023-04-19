@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hostbg {
+            background-image: url(s.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #bfdb38;
+        }
+
+        form {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0%;
+            font-size: medium;
+            color: rgb(0, 0, 0);
+            opacity: 80%;
+            background-color: #0c0c0c33;
+            padding: 25px;
+            border: 1px solid rgba(0, 0, 0, .1);
+            box-shadow: 0 5px 10px rgb(0, 0, 0, .2);
+            width: 60%;
+            margin: auto;
+        }
+
+        .form input {
+            padding: 10px 0px;
+            margin-bottom: 20px;
+        }
+
+        .flex {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .label {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hostbg">
+
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="Untitled-1.png" alt="" />
+        </a>
+        <div>
+            <h1>Sign up</h1>
+        </div>
+        <form class="form-host">
+            <div class="form"></div>
+            <div class="flex"> <label for="name" class="label">Name</label>
+                <input type="text" id="username" placeholder="Full name"><br><br>
+            </div>
+
+            <div class="flex"><label for="name" class="label">Email address</label>
+                <input id="emailaddress" name="emailaddress" placeholder="abc@gmail.com"><br><br>
+            </div>
+            <div class="flex"><label for="name" class="label">Password</label>
+                <input type="text" id="Password" placeholder="Password"><br><br>
+            </div>
+            <div class="flex"><label for="name" class="label">Confirm Password</label>
+                <input type="text" id="email" placeholder="confirm password"><br><br>
+            </div>
+            <div style="text-align: center;">
+                <input type="Submit" value="submit" style="padding: 10px; width: 150px; border-radius: 5px; border: 1px solid
+                    #bfdb38; background-color: #bfdb38;">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+
+</html>
